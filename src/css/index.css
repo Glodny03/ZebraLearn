@@ -1,0 +1,139 @@
+/* Poppins */ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap'); /* Bree
+Serif */ @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap'); ::-webkit-input-placeholder { color: rgb(48, 46,
+    46); } * { margin: 0; padding: 0; box-sizing: border-box; } body{ background-color: #191925; } .logo { display: flex; justify-content:
+        center; text-align: center; color: white; } @keyframes logoShadow { 0% { text-shadow: 20px 0px 160px rgba(255, 255, 255, 0.658); } 50% {
+        text-shadow: 20px 0px 90px rgba(255, 255, 255, 0.658); } 100% { text-shadow: 20px 0px 200px rgba(255, 255, 255, 0.658); } } .logo h1 {
+        font-family: 'Bree Serif', serif; letter-spacing: 3px; font-size: 180px; animation: logoShadow ease-in 3s infinite alternate none running; }
+        .logo p { font-family: 'Poppins', sans-serif; font-weight: 100; text-transform: uppercase; color: #E4B60F; letter-spacing: 20px; font-size:
+        80px; text-shadow: none; margin-top: -40px; } /* loginPanel */ .loginPanel { display: flex; flex-direction: column; justify-content: center;
+        align-items: center; position: relative; margin-top: 100px; } .loginPanel input { width: 350px; height: 60px; border-radius: 40px; border:
+        none; background-color: rgba(255, 255, 255, 0.5); box-shadow: 0 0 20px rgba(255, 255, 255, 0.342); color: black; padding: 10px 30px;
+        font-family: 'Poppins', sans-serif; font-size: 20px; outline: none; margin-bottom: 20px; } .loginPanel a { color: white; font-family:
+        'Poppins', sans-serif; font-size: 13px; letter-spacing: 0.3px; text-decoration: none; font-weight: 200; margin-bottom: 20px; transition:
+        .5s; } .loginPanel a:hover { letter-spacing: 1px; } .loginPanel button, .loginPanel button::after { -webkit-transition: all 0.6s;
+        -moz-transition: all 0.6s; -o-transition: all 0.6s; transition: all 0.6s; } .loginPanel button { width: 220px; height: 50px; border: none;
+        background-color: #e4b60fa8; box-shadow: 0 0 20px #e4b60fa8; border-radius: 50px; color: #fff; font-size: 20px; cursor: pointer;
+        font-family: 'Poppins', sans-serif; margin-bottom: 30px; position: relative; } .loginPanel button a {font-size: 20px; font-weight: 400;} .loginPanel button::before, .loginPanel button::after {
+        background: #fff; content: ''; position: absolute; z-index: -1; } .loginPanel button:hover { color: #191925; } .loginPanel button {
+        overflow: hidden; } .loginPanel button::after { /*background-color: #f00;*/ height: 100%; left: -35%; top: 0; transform: skew(50deg);
+        transition-duration: 0.6s; transform-origin: top left; width: 0; } .loginPanel button:hover:after { height: 100%; width: 135%; }
+        .wrongScreen { background-color: #191925; width: 100vw; height: 100vh; position: absolute; z-index: 1000; left: 0; top: 0; display: none;
+        justify-content: center; align-items: center; } .wrongScreen p { color: white; font-family: 'Poppins', sans-serif; font-size: 20px;
+        letter-spacing: 0.6px; } .selectAnAction { display: flex; flex-direction: column; justify-content: center; align-items: center; position:
+        relative; margin-top: 100px; } .selectAnAction button { width: 360px; height: 70px; border-radius: 50px; border: none; background-color:
+        #e4b60fa8; box-shadow: 0 0 20px #e4b60fa8; letter-spacing: 0.8px; color: white; font-family: 'Poppins', sans-serif; font-size: 25px;
+        outline: none; cursor: pointer; margin-bottom: 50px; } /* START */ .selectAnAction button, .selectAnAction button::after {
+        -webkit-transition: all 0.6s; -moz-transition: all 0.6s; -o-transition: all 0.6s; transition: all 0.6s; } .selectAnAction button { width:
+        360px; height: 70px; border: none; background-color: #e4b60fa8; box-shadow: 0 0 20px #e4b60fa8; border-radius: 50px; color: #fff; font-size:
+        20px; cursor: pointer; font-family: 'Poppins', sans-serif; margin-bottom: 50px; position: relative; } .selectAnAction button::before,
+        .selectAnAction button::after { background: #fff; content: ''; position: absolute; z-index: -1; } .selectAnAction button:hover { color:
+        #191925; } .selectAnAction button { overflow: hidden; } .selectAnAction button::after { /*background-color: #f00;*/ height: 100%; left:
+        -35%; top: 0; transform: skew(50deg); transition-duration: 0.6s; transform-origin: top left; width: 0; } .selectAnAction button:hover:after
+        { height: 100%; width: 135%; } .sciencePanel { display: flex; flex-direction: column; justify-content: center; align-items: center;
+        position: relative; margin-top: 100px; } .sciencePanel p { color: white; font-family: 'Poppins', sans-serif; font-size: 33px;
+        letter-spacing: 1px; letter-spacing: 0.3px; text-decoration: none; font-weight: 300; margin-bottom: 20px; } .sciencePanel__result { display:
+        flex; flex-wrap: wrap; justify-content: center; } .sciencePanel__result--view { display: flex; flex-direction: column; justify-content:
+        center; text-align: center; } /* START */ .sciencePanel input { width: 350px; height: 60px; border-radius: 40px; border: none;
+        background-color: #e4b60fa8; box-shadow: 0 0 20px #e4b60fa8; color: #fff; padding: 10px 30px; font-family: 'Poppins', sans-serif; font-size:
+        20px; outline: none; margin-bottom: 20px; text-decoration: none; text-align: center; margin-bottom: 40px; } .sciencePanel
+        .sciencePanel--word { width: 360px; height: 80px; display: flex; align-items: center; justify-content: center; border: none;
+        background-color: transparent; border: 9px solid #E4B60F; box-shadow: 0 0 20px #e4b60fa8; border-radius: 50px; color: #fff; font-size: 30px;
+        font-family: 'Poppins', sans-serif; margin-bottom: 40px; cursor: default; font-weight: 300; text-align: center; -moz-box-shadow: inset 0 0
+        10px #e4b60fa8; -webkit-box-shadow: inset 0 0 10px #e4b60fa8; box-shadow: inset 0 0 10px #e4b60fa8; } .sciencePanel .sciencePanel--wordMINI
+        { width: 360px; height: 60px; display: flex; align-items: center; justify-content: center; border: none; background-color: transparent;
+        border: 9px solid #E4B60F; box-shadow: 0 0 20px #e4b60fa8; margin: 0 10px 0 10px; border-radius: 50px; color: #fff; font-size: 27px;
+        font-family: 'Poppins', sans-serif; margin-bottom: 40px; cursor: default; font-weight: 300; text-align: center; -moz-box-shadow: inset 0 0
+        10px #e4b60fa8; -webkit-box-shadow: inset 0 0 10px #e4b60fa8; box-shadow: inset 0 0 10px #e4b60fa8; } .sciencePanel__result p { font-weight:
+        300; color: #E4B60F; letter-spacing: 1px; font-size: 20px; margin-top: -30px; text-shadow: 20px 0px 160px #e4b60fa8; ; } .gratulationPanel {
+        display: flex; flex-direction: column; justify-content: center; align-items: center; position: relative; margin-top: 100px; }
+        .gratulationPanel p { color: white; font-family: 'Poppins', sans-serif; font-size: 33px; letter-spacing: 1px; letter-spacing: 0.3px;
+        text-decoration: none; font-weight: 300; margin-bottom: 20px; } .gratulationPanel__result { flex-direction: column; display: flex;
+        justify-content: center; } .gratulationPanel__result--view { display: flex; flex-direction: column; justify-content: center; text-align:
+        center; } /* START */ .gratulationPanel input { width: 350px; height: 60px; border-radius: 40px; border: none; background-color: #e4b60fa8;
+        box-shadow: 0 0 20px #e4b60fa8; color: #fff; padding: 10px 30px; font-family: 'Poppins', sans-serif; font-size: 20px; outline: none;
+        margin-bottom: 20px; text-decoration: none; text-align: center; margin-bottom: 40px; } .gratulationPanel .gratulationPanel--word { width:
+        360px; height: 80px; display: flex; align-items: center; justify-content: center; border: none; background-color: transparent; border: 9px
+        solid #E4B60F; box-shadow: 0 0 20px #e4b60fa8; border-radius: 50px; color: #fff; font-size: 30px; font-family: 'Poppins', sans-serif;
+        margin-bottom: 40px; cursor: default; font-weight: 300; text-align: center; -moz-box-shadow: inset 0 0 10px #e4b60fa8; -webkit-box-shadow:
+        inset 0 0 10px #e4b60fa8; box-shadow: inset 0 0 10px #e4b60fa8; } .gratulationPanel .gratulationPanel--wordMINI { width: 360px; height:
+        60px; display: flex; align-items: center; justify-content: center; border: none; background-color: transparent; border: 9px solid #E4B60F;
+        box-shadow: 0 0 20px #e4b60fa8; margin: 0 10px 0 10px; border-radius: 50px; color: #fff; font-size: 27px; font-family: 'Poppins',
+        sans-serif; margin-bottom: 40px; cursor: default; font-weight: 300; text-align: center; -moz-box-shadow: inset 0 0 10px #e4b60fa8;
+        -webkit-box-shadow: inset 0 0 10px #e4b60fa8; box-shadow: inset 0 0 10px #e4b60fa8; } .gratulationPanel__result p { font-weight: 300; color:
+        #E4B60F; letter-spacing: 1px; font-size: 20px; margin-top: -30px; text-shadow: 20px 0px 160px #e4b60fa8; } .gamePanel { display: flex;
+        flex-direction: column; justify-content: center; align-items: center; position: relative; margin-top: 100px; } .gamePanel p { color: white;
+        font-family: 'Poppins', sans-serif; font-size: 33px; letter-spacing: 1px; letter-spacing: 0.3px; text-decoration: none; font-weight: 300;
+        margin-bottom: 20px; } .gamePanel__result { display: flex; flex-wrap: wrap; justify-content: center; } .gamePanel__result h1 { color: red;
+        font-family: 'Poppins', sans-serif; font-size: 40px; font-weight: 300; } .gamePanel__result--view { display: flex; flex-direction: column;
+        justify-content: center; text-align: center; } /* START */ .gamePanel input { width: 350px; height: 60px; border-radius: 40px; border: none;
+        background-color: #e4b60fa8; box-shadow: 0 0 20px #e4b60fa8; color: #fff; padding: 10px 30px; font-family: 'Poppins', sans-serif; font-size:
+        20px; outline: none; margin-bottom: 20px; text-decoration: none; text-align: center; margin-bottom: 40px; } .gamePanel .gamePanel--word {
+        width: 360px; height: 80px; display: flex; align-items: center; justify-content: center; border: none; background-color: transparent;
+        border: 9px solid #E4B60F; box-shadow: 0 0 20px #e4b60fa8; border-radius: 50px; color: #fff; font-size: 30px; font-family: 'Poppins',
+        sans-serif; margin-bottom: 40px; cursor: default; font-weight: 300; text-align: center; -moz-box-shadow: inset 0 0 10px #e4b60fa8;
+        -webkit-box-shadow: inset 0 0 10px #e4b60fa8; box-shadow: inset 0 0 10px #e4b60fa8; } .gamePanel .gamePanel--wordMINI { width: 360px;
+        height: 60px; display: flex; align-items: center; justify-content: center; border: none; background-color: transparent; border: 9px solid
+        #E4B60F; box-shadow: 0 0 20px #e4b60fa8; margin: 0 10px 0 10px; border-radius: 50px; color: #fff; font-size: 27px; font-family: 'Poppins',
+        sans-serif; margin-bottom: 40px; cursor: default; font-weight: 300; text-align: center; -moz-box-shadow: inset 0 0 10px #e4b60fa8;
+        -webkit-box-shadow: inset 0 0 10px #e4b60fa8; box-shadow: inset 0 0 10px #e4b60fa8; } .gamePanel__result p { font-weight: 300; color:
+        #E4B60F; letter-spacing: 1px; font-size: 20px; margin-top: -30px; text-shadow: 20px 0px 160px #e4b60fa8; ; } .iconContainer { position:
+        fixed; right: 30px; background-color: transparent; top: 30px; display: flex; flex-direction: column; } .iconContainer a img { width: 40px;
+        height: 40px; margin: 0; background: none; } .iconContainer a img:nth-child(1) { margin-bottom: 20px; } @media (max-width: 380px) { /* body
+        { background-color:red; } */ .logo h1 { font-size: 80px; } .logo p { font-size: 50px; margin-top: -20px; letter-spacing: 15px; } .loginPanel
+        { margin-top: 0px; top: 50vh; transform: translateY(-70%); } .loginPanel input { width: 270px; height: 60px; margin-bottom: 20px; } } @media
+        (min-width: 381px) and (max-width: 991px) { .loginPanel {} .logo h1 { font-size: 100px; } .logo p { font-size: 40px; margin-top: -20px; }
+        .loginPanel { margin-top: 0px; top: 50vh; transform: translateY(-70%); } } @media (min-width: 992px) and (max-width: 1302px) { .logo h1 {
+        font-size: 140px; } .logo p { font-size: 60px; margin-top: -30px; } } /* lock rotated phone screen */ @media (min-height: 0px) and
+        (max-height: 520px) { .wrongScreen { display: flex; } } @media (max-width: 449px) { /* body { background-color:red; } */ .logo h1 {
+        font-size: 80px; } .logo p { font-size: 50px; margin-top: -20px; letter-spacing: 15px; } .selectAnAction { margin-top: 0px; top: 50vh;
+        transform: translateY(-85%); } .selectAnAction button { width: 250px; height: 60px; margin-bottom: 30px; } .iconContainer { position: fixed;
+        flex-direction: row; top: 88vh; right: 50vw; transform: translateX(50%); justify-content: center; } .iconContainer a img { margin: 20px;
+        margin-top: -5px; } } @media (min-width: 450px) and (max-width: 991px) { .logo h1 { font-size: 100px; } .logo p { font-size: 40px;
+        margin-top: -20px; } .selectAnAction { margin-top: 0px; top: 50vh; transform: translateY(-70%); } } @media (min-width: 992px) and
+        (max-width: 1302px) { .logo h1 { font-size: 140px; } .logo p { font-size: 60px; margin-top: -30px; } } /* lock rotated phone screen */
+        @media (min-height: 0px) and (max-height: 520px) { .wrongScreen { display: flex; } } @media (max-width: 449px) { /* body {
+        background-color:red; } */ .logo h1 { font-size: 80px; } .logo p { font-size: 30px; margin-top: -20px; letter-spacing: 15px; }
+        .selectAnAction { margin-top: 0px; top: 50vh; transform: translateY(-50%); } .selectAnAction button { width: 250px; height: 60px;
+        margin-bottom: 30px; } .iconContainer { position: fixed; flex-direction: row; top: 88vh; right: 50vw; transform: translateX(50%);
+        justify-content: center; } .iconContainer a img { margin: 20px; margin-top: -5px; } /* //DODANA CZĘŚĆ */ .sciencePanel { margin-top: 5vw; }
+        .sciencePanel p { font-size: 20px; margin-bottom: 20px; } .sciencePanel .sciencePanel--word { width: 280px; height: 60px; font-size: 20px;
+        border: 6px solid #E4B60F; margin-bottom: 15px; } .sciencePanel input { width: 280px; height: 60px; font-size: 15px; outline: none;
+        margin-bottom: 25px; } .sciencePanel .sciencePanel--wordMINI { width: 200px; height: 40px; border: 5px solid #E4B60F; box-shadow: 0 0 10px
+        #e4b60fa8; font-size: 18px; margin-bottom: 30px; cursor: default; font-weight: 300; } } @media (max-height: 600px) { .iconContainer a img {
+        margin-top: 10px; } .sciencePanel { margin-top: 4vw; } .sciencePanel p { font-size: 20px; margin-bottom: 10px; } .sciencePanel
+        .sciencePanel--word { width: 280px; height: 60px; font-size: 20px; border: 6px solid #E4B60F; margin-bottom: 5px; } .sciencePanel input {
+        width: 280px; height: 60px; font-size: 15px; outline: none; margin-bottom: 10px; } .sciencePanel .sciencePanel--wordMINI { width: 200px;
+        height: 40px; border: 5px solid #E4B60F; box-shadow: 0 0 10px #e4b60fa8; font-size: 18px; margin-bottom: 30px; cursor: default; font-weight:
+        300; } } @media (min-width: 450px) and (max-width: 991px) { .logo h1 { font-size: 100px; } .logo p { font-size: 40px; margin-top: -20px; }
+        .selectAnAction { margin-top: 0px; top: 50vh; transform: translateY(-70%); } } @media (min-width: 992px) and (max-width: 1302px) { .logo h1
+        { font-size: 140px; } .logo p { font-size: 60px; margin-top: -30px; } } /* lock rotated phone screen */ @media (min-height: 0px) and
+        (max-height: 520px) { .wrongScreen { display: flex; } } @media (max-width: 449px) { /* body { background-color:red; } */ .logo h1 {
+        font-size: 80px; } .logo p { font-size: 30px; margin-top: -20px; letter-spacing: 15px; } .selectAnAction { margin-top: 0px; top: 50vh;
+        transform: translateY(-50%); } .selectAnAction button { width: 250px; height: 60px; margin-bottom: 30px; } .iconContainer { position: fixed;
+        flex-direction: row; top: 88vh; right: 50vw; transform: translateX(50%); justify-content: center; } .iconContainer a img { margin: 20px;
+        margin-top: -5px; } /* //DODANA CZĘŚĆ */ .gratulationPanel { margin-top: 5vw; } .gratulationPanel .gratulationPanel--word { width: 280px;
+        height: 60px; font-size: 20px; border: 6px solid #E4B60F; margin-bottom: 15px; } .gratulationPanel input { width: 280px; height: 60px;
+        font-size: 15px; outline: none; margin-bottom: 25px; } .gratulationPanel .gratulationPanel--wordMINI { width: 200px; height: 40px; border:
+        5px solid #E4B60F; box-shadow: 0 0 10px #e4b60fa8; font-size: 18px; margin-bottom: 30px; cursor: default; font-weight: 300; }
+        .gratulationPanel__result p { font-size: 30px; margin-top: -20px; } .gratulationPanel__result .gratulationPanel__result--view p { font-size:
+        16px; margin-top: -20px; } } @media (min-width: 992px) and (max-width: 1302px) { .logo h1 { font-size: 140px; } .logo p { font-size: 60px;
+        margin-top: -30px; } } /* lock rotated phone screen */ @media (min-height: 0px) and (max-height: 520px) { .wrongScreen { display: flex; } }
+        @media (max-width: 449px) { /* body { background-color:red; } */ .logo h1 { font-size: 80px; } .logo p { font-size: 30px; margin-top: -20px;
+        letter-spacing: 15px; } .selectAnAction { margin-top: 0px; top: 50vh; transform: translateY(-50%); } .selectAnAction button { width: 250px;
+        height: 60px; margin-bottom: 30px; } .iconContainer { position: fixed; flex-direction: row; top: 88vh; right: 50vw; transform:
+        translateX(50%); justify-content: center; } .iconContainer a img { margin: 20px; margin-top: -5px; } /* //DODANA CZĘŚĆ */ .gamePanel {
+        margin-top: 5vw; } .gamePanel p { font-size: 20px; margin-bottom: 20px; } .gamePanel .gamePanel--word { width: 280px; height: 60px;
+        font-size: 20px; border: 6px solid #E4B60F; margin-bottom: 15px; } .gamePanel input { width: 280px; height: 60px; font-size: 15px; outline:
+        none; margin-bottom: 25px; } .gamePanel .gamePanel--wordMINI { width: 200px; height: 40px; border: 5px solid #E4B60F; box-shadow: 0 0 10px
+        #e4b60fa8; font-size: 18px; margin-bottom: 30px; cursor: default; font-weight: 300; } } .gamePanel__option { display: flex; flex-wrap: wrap;
+        } .gamePanel__option button { width: 360px; height: 70px; border: none; background-color: #e4b60fa8; box-shadow: 0 0 20px #e4b60fa8;
+        border-radius: 50px; color: #fff; font-size: 20px; cursor: pointer; font-family: 'Poppins', sans-serif; position: relative; margin: 0 10px
+        50px 10px; } @media (max-height: 600px) { .iconContainer a img { margin-top: 10px; } .gamePanel { margin-top: 4vw; } .gamePanel p {
+        font-size: 20px; margin-bottom: 10px; } .gamePanel .gamePanel--word { width: 280px; height: 60px; font-size: 20px; border: 6px solid
+        #E4B60F; margin-bottom: 5px; } .gamePanel input { width: 280px; height: 60px; font-size: 15px; outline: none; margin-bottom: 10px; }
+        .gamePanel .gamePanel--wordMINI { width: 200px; height: 40px; border: 5px solid #E4B60F; box-shadow: 0 0 10px #e4b60fa8; font-size: 18px;
+        margin-bottom: 30px; cursor: default; font-weight: 300; } } @media (min-width: 450px) and (max-width: 991px) { .logo h1 { font-size: 100px;
+        } .logo p { font-size: 40px; margin-top: -20px; } .selectAnAction { margin-top: 0px; top: 50vh; transform: translateY(-70%); } } @media
+        (min-width: 992px) and (max-width: 1302px) { .logo h1 { font-size: 140px; } .logo p { font-size: 60px; margin-top: -30px; } } /* lock
+        rotated phone screen */ @media (min-height: 0px) and (max-height: 520px) { .wrongScreen { display: flex; } }
+        
